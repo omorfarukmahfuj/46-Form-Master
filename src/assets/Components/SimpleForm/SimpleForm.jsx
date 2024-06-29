@@ -1,4 +1,3 @@
-
 const SimpleForm = () => {
   const handleSubmit = event => {
     event.preventDefault(); // prevent default site loading when form is submitted
