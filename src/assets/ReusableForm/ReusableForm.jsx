@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
-const ReusableForm = ({ formTitle, handleSubmit, submitBtnText = 'Submit', children }) => {
+// const ReusableForm = ({ formTitle, handleSubmit, submitBtnText = 'Submit', children }) => {
+const ReusableForm = ({ handleSubmit, submitBtnText = 'Submit', children }) => {
 
   const handleLocalSubmit = event => {
     event.preventDefault();
@@ -15,6 +16,7 @@ const ReusableForm = ({ formTitle, handleSubmit, submitBtnText = 'Submit', child
   }
   return (
     <div>
+      {/* <h2>{formTitle}</h2> */}
       {children}
       <form onSubmit={handleLocalSubmit}>
         <input type="text" name="name" placeholder="Enter your name" />
