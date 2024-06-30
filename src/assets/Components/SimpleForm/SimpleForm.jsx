@@ -3,7 +3,7 @@ const SimpleForm = () => {
     event.preventDefault(); // prevent default site loading when form is submitted
     console.log(event.target.name.value);
     console.log(event.target.email.value);
-    console.log(event.target.phone.value);
+    console.log(event.target.password.value);
   }
   return (
     <div>
@@ -12,7 +12,7 @@ const SimpleForm = () => {
         <br />
         <input type="email" name="email" placeholder="Enter your email" />
         <br />
-        <input type="password" name="phone" placeholder="Enter your password" />
+        <input type="password" name="password" placeholder="Enter your password" />
         <br />
         <input type="submit" value="Submit" />
       </form>

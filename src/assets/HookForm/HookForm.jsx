@@ -17,7 +17,7 @@ const HookForm = () => {
         <br />
         <input {...emailState} type="email" name="email" placeholder="Enter your email" />
         <br />
-        <input type="password" name="phone" placeholder="Enter your password" />
+        <input type="password" name="password" placeholder="Enter your password" />
         <br />
         <input type="submit" value="Submit" />
       </form>
